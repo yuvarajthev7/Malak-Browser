@@ -1,0 +1,46 @@
+[
+    {
+        "trigger": { "url-filter": ".*google-analytics\\.com.*" },
+        "action": { "type": "block" }
+    },
+    {
+        "trigger": { "url-filter": ".*googletagmanager\\.com.*" },
+        "action": { "type": "block" }
+    },
+    {
+        "trigger": { "url-filter": ".*facebook\\.net.*" },
+        "action": { "type": "block" }
+    },
+    {
+        "trigger": { "url-filter": ".*facebook\\.com/tr.*" },
+        "action": { "type": "block" }
+    },
+    {
+        "trigger": { "url-filter": ".*hotjar\\.com.*" },
+        "action": { "type": "block" }
+    },
+    {
+        "trigger": { "url-filter": ".*googleads\\.g\\.doubleclick\\.net.*" },
+        "action": { "type": "block" }
+    },
+    {
+        "trigger": { "url-filter": ".*doubleclick\\.net.*" },
+        "action": { "type": "block" }
+    },
+    {
+        "trigger": { "url-filter": ".*scorecardresearch\\.com.*" },
+        "action": { "type": "block" }
+    },
+    {
+        "trigger": { "url-filter": ".*criteo\\.com.*" },
+        "action": { "type": "block" }
+    },
+    {
+        "trigger": { "url-filter": ".*outbrain\\.com.*" },
+        "action": { "type": "block" }
+    },
+    {
+        "trigger": { "url-filter": ".*taboola\\.com.*" },
+        "action": { "type": "block" }
+    }
+]
