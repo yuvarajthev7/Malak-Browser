@@ -69,13 +69,34 @@ include CMakeFiles/malak_browser.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/malak_browser.dir/flags.make
 
+malak_browser_autogen/timestamp: /usr/lib/qt6/moc
+malak_browser_autogen/timestamp: /usr/lib/qt6/uic
+malak_browser_autogen/timestamp: CMakeFiles/malak_browser.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/goodboicarti/Desktop/projects/Malak-Browser/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Automatic MOC and UIC for target malak_browser"
+	/usr/sbin/cmake -E cmake_autogen /home/goodboicarti/Desktop/projects/Malak-Browser/build/CMakeFiles/malak_browser_autogen.dir/AutogenInfo.json ""
+	/usr/sbin/cmake -E touch /home/goodboicarti/Desktop/projects/Malak-Browser/build/malak_browser_autogen/timestamp
+
 CMakeFiles/malak_browser.dir/codegen:
 .PHONY : CMakeFiles/malak_browser.dir/codegen
+
+CMakeFiles/malak_browser.dir/malak_browser_autogen/mocs_compilation.cpp.o: CMakeFiles/malak_browser.dir/flags.make
+CMakeFiles/malak_browser.dir/malak_browser_autogen/mocs_compilation.cpp.o: malak_browser_autogen/mocs_compilation.cpp
+CMakeFiles/malak_browser.dir/malak_browser_autogen/mocs_compilation.cpp.o: CMakeFiles/malak_browser.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/goodboicarti/Desktop/projects/Malak-Browser/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/malak_browser.dir/malak_browser_autogen/mocs_compilation.cpp.o"
+	/usr/sbin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/malak_browser.dir/malak_browser_autogen/mocs_compilation.cpp.o -MF CMakeFiles/malak_browser.dir/malak_browser_autogen/mocs_compilation.cpp.o.d -o CMakeFiles/malak_browser.dir/malak_browser_autogen/mocs_compilation.cpp.o -c /home/goodboicarti/Desktop/projects/Malak-Browser/build/malak_browser_autogen/mocs_compilation.cpp
+
+CMakeFiles/malak_browser.dir/malak_browser_autogen/mocs_compilation.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/malak_browser.dir/malak_browser_autogen/mocs_compilation.cpp.i"
+	/usr/sbin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/goodboicarti/Desktop/projects/Malak-Browser/build/malak_browser_autogen/mocs_compilation.cpp > CMakeFiles/malak_browser.dir/malak_browser_autogen/mocs_compilation.cpp.i
+
+CMakeFiles/malak_browser.dir/malak_browser_autogen/mocs_compilation.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/malak_browser.dir/malak_browser_autogen/mocs_compilation.cpp.s"
+	/usr/sbin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/goodboicarti/Desktop/projects/Malak-Browser/build/malak_browser_autogen/mocs_compilation.cpp -o CMakeFiles/malak_browser.dir/malak_browser_autogen/mocs_compilation.cpp.s
 
 CMakeFiles/malak_browser.dir/src/main.cpp.o: CMakeFiles/malak_browser.dir/flags.make
 CMakeFiles/malak_browser.dir/src/main.cpp.o: /home/goodboicarti/Desktop/projects/Malak-Browser/src/main.cpp
 CMakeFiles/malak_browser.dir/src/main.cpp.o: CMakeFiles/malak_browser.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/goodboicarti/Desktop/projects/Malak-Browser/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/malak_browser.dir/src/main.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/goodboicarti/Desktop/projects/Malak-Browser/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/malak_browser.dir/src/main.cpp.o"
 	/usr/sbin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/malak_browser.dir/src/main.cpp.o -MF CMakeFiles/malak_browser.dir/src/main.cpp.o.d -o CMakeFiles/malak_browser.dir/src/main.cpp.o -c /home/goodboicarti/Desktop/projects/Malak-Browser/src/main.cpp
 
 CMakeFiles/malak_browser.dir/src/main.cpp.i: cmake_force
@@ -86,38 +107,38 @@ CMakeFiles/malak_browser.dir/src/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/malak_browser.dir/src/main.cpp.s"
 	/usr/sbin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/goodboicarti/Desktop/projects/Malak-Browser/src/main.cpp -o CMakeFiles/malak_browser.dir/src/main.cpp.s
 
-CMakeFiles/malak_browser.dir/src/browser.cpp.o: CMakeFiles/malak_browser.dir/flags.make
-CMakeFiles/malak_browser.dir/src/browser.cpp.o: /home/goodboicarti/Desktop/projects/Malak-Browser/src/browser.cpp
-CMakeFiles/malak_browser.dir/src/browser.cpp.o: CMakeFiles/malak_browser.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/goodboicarti/Desktop/projects/Malak-Browser/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/malak_browser.dir/src/browser.cpp.o"
-	/usr/sbin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/malak_browser.dir/src/browser.cpp.o -MF CMakeFiles/malak_browser.dir/src/browser.cpp.o.d -o CMakeFiles/malak_browser.dir/src/browser.cpp.o -c /home/goodboicarti/Desktop/projects/Malak-Browser/src/browser.cpp
+CMakeFiles/malak_browser.dir/src/mainwindow.cpp.o: CMakeFiles/malak_browser.dir/flags.make
+CMakeFiles/malak_browser.dir/src/mainwindow.cpp.o: /home/goodboicarti/Desktop/projects/Malak-Browser/src/mainwindow.cpp
+CMakeFiles/malak_browser.dir/src/mainwindow.cpp.o: CMakeFiles/malak_browser.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/goodboicarti/Desktop/projects/Malak-Browser/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/malak_browser.dir/src/mainwindow.cpp.o"
+	/usr/sbin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/malak_browser.dir/src/mainwindow.cpp.o -MF CMakeFiles/malak_browser.dir/src/mainwindow.cpp.o.d -o CMakeFiles/malak_browser.dir/src/mainwindow.cpp.o -c /home/goodboicarti/Desktop/projects/Malak-Browser/src/mainwindow.cpp
 
-CMakeFiles/malak_browser.dir/src/browser.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/malak_browser.dir/src/browser.cpp.i"
-	/usr/sbin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/goodboicarti/Desktop/projects/Malak-Browser/src/browser.cpp > CMakeFiles/malak_browser.dir/src/browser.cpp.i
+CMakeFiles/malak_browser.dir/src/mainwindow.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/malak_browser.dir/src/mainwindow.cpp.i"
+	/usr/sbin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/goodboicarti/Desktop/projects/Malak-Browser/src/mainwindow.cpp > CMakeFiles/malak_browser.dir/src/mainwindow.cpp.i
 
-CMakeFiles/malak_browser.dir/src/browser.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/malak_browser.dir/src/browser.cpp.s"
-	/usr/sbin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/goodboicarti/Desktop/projects/Malak-Browser/src/browser.cpp -o CMakeFiles/malak_browser.dir/src/browser.cpp.s
+CMakeFiles/malak_browser.dir/src/mainwindow.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/malak_browser.dir/src/mainwindow.cpp.s"
+	/usr/sbin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/goodboicarti/Desktop/projects/Malak-Browser/src/mainwindow.cpp -o CMakeFiles/malak_browser.dir/src/mainwindow.cpp.s
 
-CMakeFiles/malak_browser.dir/src/adblock.cpp.o: CMakeFiles/malak_browser.dir/flags.make
-CMakeFiles/malak_browser.dir/src/adblock.cpp.o: /home/goodboicarti/Desktop/projects/Malak-Browser/src/adblock.cpp
-CMakeFiles/malak_browser.dir/src/adblock.cpp.o: CMakeFiles/malak_browser.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/goodboicarti/Desktop/projects/Malak-Browser/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/malak_browser.dir/src/adblock.cpp.o"
-	/usr/sbin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/malak_browser.dir/src/adblock.cpp.o -MF CMakeFiles/malak_browser.dir/src/adblock.cpp.o.d -o CMakeFiles/malak_browser.dir/src/adblock.cpp.o -c /home/goodboicarti/Desktop/projects/Malak-Browser/src/adblock.cpp
+CMakeFiles/malak_browser.dir/src/interceptor.cpp.o: CMakeFiles/malak_browser.dir/flags.make
+CMakeFiles/malak_browser.dir/src/interceptor.cpp.o: /home/goodboicarti/Desktop/projects/Malak-Browser/src/interceptor.cpp
+CMakeFiles/malak_browser.dir/src/interceptor.cpp.o: CMakeFiles/malak_browser.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/goodboicarti/Desktop/projects/Malak-Browser/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/malak_browser.dir/src/interceptor.cpp.o"
+	/usr/sbin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/malak_browser.dir/src/interceptor.cpp.o -MF CMakeFiles/malak_browser.dir/src/interceptor.cpp.o.d -o CMakeFiles/malak_browser.dir/src/interceptor.cpp.o -c /home/goodboicarti/Desktop/projects/Malak-Browser/src/interceptor.cpp
 
-CMakeFiles/malak_browser.dir/src/adblock.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/malak_browser.dir/src/adblock.cpp.i"
-	/usr/sbin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/goodboicarti/Desktop/projects/Malak-Browser/src/adblock.cpp > CMakeFiles/malak_browser.dir/src/adblock.cpp.i
+CMakeFiles/malak_browser.dir/src/interceptor.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/malak_browser.dir/src/interceptor.cpp.i"
+	/usr/sbin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/goodboicarti/Desktop/projects/Malak-Browser/src/interceptor.cpp > CMakeFiles/malak_browser.dir/src/interceptor.cpp.i
 
-CMakeFiles/malak_browser.dir/src/adblock.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/malak_browser.dir/src/adblock.cpp.s"
-	/usr/sbin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/goodboicarti/Desktop/projects/Malak-Browser/src/adblock.cpp -o CMakeFiles/malak_browser.dir/src/adblock.cpp.s
+CMakeFiles/malak_browser.dir/src/interceptor.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/malak_browser.dir/src/interceptor.cpp.s"
+	/usr/sbin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/goodboicarti/Desktop/projects/Malak-Browser/src/interceptor.cpp -o CMakeFiles/malak_browser.dir/src/interceptor.cpp.s
 
 CMakeFiles/malak_browser.dir/src/storage.cpp.o: CMakeFiles/malak_browser.dir/flags.make
 CMakeFiles/malak_browser.dir/src/storage.cpp.o: /home/goodboicarti/Desktop/projects/Malak-Browser/src/storage.cpp
 CMakeFiles/malak_browser.dir/src/storage.cpp.o: CMakeFiles/malak_browser.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/goodboicarti/Desktop/projects/Malak-Browser/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/malak_browser.dir/src/storage.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/goodboicarti/Desktop/projects/Malak-Browser/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/malak_browser.dir/src/storage.cpp.o"
 	/usr/sbin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/malak_browser.dir/src/storage.cpp.o -MF CMakeFiles/malak_browser.dir/src/storage.cpp.o.d -o CMakeFiles/malak_browser.dir/src/storage.cpp.o -c /home/goodboicarti/Desktop/projects/Malak-Browser/src/storage.cpp
 
 CMakeFiles/malak_browser.dir/src/storage.cpp.i: cmake_force
@@ -130,22 +151,38 @@ CMakeFiles/malak_browser.dir/src/storage.cpp.s: cmake_force
 
 # Object files for target malak_browser
 malak_browser_OBJECTS = \
+"CMakeFiles/malak_browser.dir/malak_browser_autogen/mocs_compilation.cpp.o" \
 "CMakeFiles/malak_browser.dir/src/main.cpp.o" \
-"CMakeFiles/malak_browser.dir/src/browser.cpp.o" \
-"CMakeFiles/malak_browser.dir/src/adblock.cpp.o" \
+"CMakeFiles/malak_browser.dir/src/mainwindow.cpp.o" \
+"CMakeFiles/malak_browser.dir/src/interceptor.cpp.o" \
 "CMakeFiles/malak_browser.dir/src/storage.cpp.o"
 
 # External object files for target malak_browser
 malak_browser_EXTERNAL_OBJECTS =
 
+malak_browser: CMakeFiles/malak_browser.dir/malak_browser_autogen/mocs_compilation.cpp.o
 malak_browser: CMakeFiles/malak_browser.dir/src/main.cpp.o
-malak_browser: CMakeFiles/malak_browser.dir/src/browser.cpp.o
-malak_browser: CMakeFiles/malak_browser.dir/src/adblock.cpp.o
+malak_browser: CMakeFiles/malak_browser.dir/src/mainwindow.cpp.o
+malak_browser: CMakeFiles/malak_browser.dir/src/interceptor.cpp.o
 malak_browser: CMakeFiles/malak_browser.dir/src/storage.cpp.o
 malak_browser: CMakeFiles/malak_browser.dir/build.make
 malak_browser: CMakeFiles/malak_browser.dir/compiler_depend.ts
+malak_browser: /usr/lib/libQt6WebEngineWidgets.so.6.10.1
+malak_browser: /usr/lib/libQt6WebEngineCore.so.6.10.1
+malak_browser: /usr/lib/libQt6WebChannel.so.6.10.1
+malak_browser: /usr/lib/libQt6Positioning.so.6.10.1
+malak_browser: /usr/lib/libQt6PrintSupport.so.6.10.1
+malak_browser: /usr/lib/libQt6Widgets.so.6.10.1
+malak_browser: /usr/lib/libQt6Quick.so.6.10.1
+malak_browser: /usr/lib/libQt6OpenGL.so.6.10.1
+malak_browser: /usr/lib/libQt6Gui.so.6.10.1
+malak_browser: /usr/lib/libGLX.so
+malak_browser: /usr/lib/libOpenGL.so
+malak_browser: /usr/lib/libQt6Qml.so.6.10.1
+malak_browser: /usr/lib/libQt6Network.so.6.10.1
+malak_browser: /usr/lib/libQt6Core.so.6.10.1
 malak_browser: CMakeFiles/malak_browser.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/goodboicarti/Desktop/projects/Malak-Browser/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking CXX executable malak_browser"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/goodboicarti/Desktop/projects/Malak-Browser/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Linking CXX executable malak_browser"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/malak_browser.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -156,7 +193,7 @@ CMakeFiles/malak_browser.dir/clean:
 	$(CMAKE_COMMAND) -P CMakeFiles/malak_browser.dir/cmake_clean.cmake
 .PHONY : CMakeFiles/malak_browser.dir/clean
 
-CMakeFiles/malak_browser.dir/depend:
+CMakeFiles/malak_browser.dir/depend: malak_browser_autogen/timestamp
 	cd /home/goodboicarti/Desktop/projects/Malak-Browser/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/goodboicarti/Desktop/projects/Malak-Browser /home/goodboicarti/Desktop/projects/Malak-Browser /home/goodboicarti/Desktop/projects/Malak-Browser/build /home/goodboicarti/Desktop/projects/Malak-Browser/build /home/goodboicarti/Desktop/projects/Malak-Browser/build/CMakeFiles/malak_browser.dir/DependInfo.cmake "--color=$(COLOR)" malak_browser
 .PHONY : CMakeFiles/malak_browser.dir/depend
 

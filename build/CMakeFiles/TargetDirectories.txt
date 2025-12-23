@@ -1,3 +1,5 @@
 /home/goodboicarti/Desktop/projects/Malak-Browser/build/CMakeFiles/malak_browser.dir
 /home/goodboicarti/Desktop/projects/Malak-Browser/build/CMakeFiles/edit_cache.dir
 /home/goodboicarti/Desktop/projects/Malak-Browser/build/CMakeFiles/rebuild_cache.dir
+/home/goodboicarti/Desktop/projects/Malak-Browser/build/CMakeFiles/malak_browser_autogen_timestamp_deps.dir
+/home/goodboicarti/Desktop/projects/Malak-Browser/build/CMakeFiles/malak_browser_autogen.dir

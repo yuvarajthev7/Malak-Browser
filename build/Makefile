@@ -129,53 +129,79 @@ malak_browser/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/malak_browser.dir/build.make CMakeFiles/malak_browser.dir/build
 .PHONY : malak_browser/fast
 
-src/adblock.o: src/adblock.cpp.o
-.PHONY : src/adblock.o
+#=============================================================================
+# Target rules for targets named malak_browser_autogen_timestamp_deps
+
+# Build rule for target.
+malak_browser_autogen_timestamp_deps: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 malak_browser_autogen_timestamp_deps
+.PHONY : malak_browser_autogen_timestamp_deps
+
+# fast build rule for target.
+malak_browser_autogen_timestamp_deps/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/malak_browser_autogen_timestamp_deps.dir/build.make CMakeFiles/malak_browser_autogen_timestamp_deps.dir/build
+.PHONY : malak_browser_autogen_timestamp_deps/fast
+
+#=============================================================================
+# Target rules for targets named malak_browser_autogen
+
+# Build rule for target.
+malak_browser_autogen: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 malak_browser_autogen
+.PHONY : malak_browser_autogen
+
+# fast build rule for target.
+malak_browser_autogen/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/malak_browser_autogen.dir/build.make CMakeFiles/malak_browser_autogen.dir/build
+.PHONY : malak_browser_autogen/fast
+
+malak_browser_autogen/mocs_compilation.o: malak_browser_autogen/mocs_compilation.cpp.o
+.PHONY : malak_browser_autogen/mocs_compilation.o
 
 # target to build an object file
-src/adblock.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/malak_browser.dir/build.make CMakeFiles/malak_browser.dir/src/adblock.cpp.o
-.PHONY : src/adblock.cpp.o
+malak_browser_autogen/mocs_compilation.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/malak_browser.dir/build.make CMakeFiles/malak_browser.dir/malak_browser_autogen/mocs_compilation.cpp.o
+.PHONY : malak_browser_autogen/mocs_compilation.cpp.o
 
-src/adblock.i: src/adblock.cpp.i
-.PHONY : src/adblock.i
+malak_browser_autogen/mocs_compilation.i: malak_browser_autogen/mocs_compilation.cpp.i
+.PHONY : malak_browser_autogen/mocs_compilation.i
 
 # target to preprocess a source file
-src/adblock.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/malak_browser.dir/build.make CMakeFiles/malak_browser.dir/src/adblock.cpp.i
-.PHONY : src/adblock.cpp.i
+malak_browser_autogen/mocs_compilation.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/malak_browser.dir/build.make CMakeFiles/malak_browser.dir/malak_browser_autogen/mocs_compilation.cpp.i
+.PHONY : malak_browser_autogen/mocs_compilation.cpp.i
 
-src/adblock.s: src/adblock.cpp.s
-.PHONY : src/adblock.s
+malak_browser_autogen/mocs_compilation.s: malak_browser_autogen/mocs_compilation.cpp.s
+.PHONY : malak_browser_autogen/mocs_compilation.s
 
 # target to generate assembly for a file
-src/adblock.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/malak_browser.dir/build.make CMakeFiles/malak_browser.dir/src/adblock.cpp.s
-.PHONY : src/adblock.cpp.s
+malak_browser_autogen/mocs_compilation.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/malak_browser.dir/build.make CMakeFiles/malak_browser.dir/malak_browser_autogen/mocs_compilation.cpp.s
+.PHONY : malak_browser_autogen/mocs_compilation.cpp.s
 
-src/browser.o: src/browser.cpp.o
-.PHONY : src/browser.o
+src/interceptor.o: src/interceptor.cpp.o
+.PHONY : src/interceptor.o
 
 # target to build an object file
-src/browser.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/malak_browser.dir/build.make CMakeFiles/malak_browser.dir/src/browser.cpp.o
-.PHONY : src/browser.cpp.o
+src/interceptor.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/malak_browser.dir/build.make CMakeFiles/malak_browser.dir/src/interceptor.cpp.o
+.PHONY : src/interceptor.cpp.o
 
-src/browser.i: src/browser.cpp.i
-.PHONY : src/browser.i
+src/interceptor.i: src/interceptor.cpp.i
+.PHONY : src/interceptor.i
 
 # target to preprocess a source file
-src/browser.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/malak_browser.dir/build.make CMakeFiles/malak_browser.dir/src/browser.cpp.i
-.PHONY : src/browser.cpp.i
+src/interceptor.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/malak_browser.dir/build.make CMakeFiles/malak_browser.dir/src/interceptor.cpp.i
+.PHONY : src/interceptor.cpp.i
 
-src/browser.s: src/browser.cpp.s
-.PHONY : src/browser.s
+src/interceptor.s: src/interceptor.cpp.s
+.PHONY : src/interceptor.s
 
 # target to generate assembly for a file
-src/browser.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/malak_browser.dir/build.make CMakeFiles/malak_browser.dir/src/browser.cpp.s
-.PHONY : src/browser.cpp.s
+src/interceptor.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/malak_browser.dir/build.make CMakeFiles/malak_browser.dir/src/interceptor.cpp.s
+.PHONY : src/interceptor.cpp.s
 
 src/main.o: src/main.cpp.o
 .PHONY : src/main.o
@@ -200,6 +226,30 @@ src/main.s: src/main.cpp.s
 src/main.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/malak_browser.dir/build.make CMakeFiles/malak_browser.dir/src/main.cpp.s
 .PHONY : src/main.cpp.s
+
+src/mainwindow.o: src/mainwindow.cpp.o
+.PHONY : src/mainwindow.o
+
+# target to build an object file
+src/mainwindow.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/malak_browser.dir/build.make CMakeFiles/malak_browser.dir/src/mainwindow.cpp.o
+.PHONY : src/mainwindow.cpp.o
+
+src/mainwindow.i: src/mainwindow.cpp.i
+.PHONY : src/mainwindow.i
+
+# target to preprocess a source file
+src/mainwindow.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/malak_browser.dir/build.make CMakeFiles/malak_browser.dir/src/mainwindow.cpp.i
+.PHONY : src/mainwindow.cpp.i
+
+src/mainwindow.s: src/mainwindow.cpp.s
+.PHONY : src/mainwindow.s
+
+# target to generate assembly for a file
+src/mainwindow.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/malak_browser.dir/build.make CMakeFiles/malak_browser.dir/src/mainwindow.cpp.s
+.PHONY : src/mainwindow.cpp.s
 
 src/storage.o: src/storage.cpp.o
 .PHONY : src/storage.o
@@ -233,16 +283,21 @@ help:
 	@echo "... depend"
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
+	@echo "... malak_browser_autogen"
+	@echo "... malak_browser_autogen_timestamp_deps"
 	@echo "... malak_browser"
-	@echo "... src/adblock.o"
-	@echo "... src/adblock.i"
-	@echo "... src/adblock.s"
-	@echo "... src/browser.o"
-	@echo "... src/browser.i"
-	@echo "... src/browser.s"
+	@echo "... malak_browser_autogen/mocs_compilation.o"
+	@echo "... malak_browser_autogen/mocs_compilation.i"
+	@echo "... malak_browser_autogen/mocs_compilation.s"
+	@echo "... src/interceptor.o"
+	@echo "... src/interceptor.i"
+	@echo "... src/interceptor.s"
 	@echo "... src/main.o"
 	@echo "... src/main.i"
 	@echo "... src/main.s"
+	@echo "... src/mainwindow.o"
+	@echo "... src/mainwindow.i"
+	@echo "... src/mainwindow.s"
 	@echo "... src/storage.o"
 	@echo "... src/storage.i"
 	@echo "... src/storage.s"

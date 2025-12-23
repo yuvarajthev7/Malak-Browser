@@ -76,21 +76,24 @@ preinstall:
 
 # The main recursive "clean" target.
 clean: CMakeFiles/malak_browser.dir/clean
+clean: CMakeFiles/malak_browser_autogen_timestamp_deps.dir/clean
+clean: CMakeFiles/malak_browser_autogen.dir/clean
 .PHONY : clean
 
 #=============================================================================
 # Target rules for target CMakeFiles/malak_browser.dir
 
 # All Build rule for target.
-CMakeFiles/malak_browser.dir/all:
+CMakeFiles/malak_browser.dir/all: CMakeFiles/malak_browser_autogen_timestamp_deps.dir/all
+CMakeFiles/malak_browser.dir/all: CMakeFiles/malak_browser_autogen.dir/all
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/malak_browser.dir/build.make CMakeFiles/malak_browser.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/malak_browser.dir/build.make CMakeFiles/malak_browser.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/goodboicarti/Desktop/projects/Malak-Browser/build/CMakeFiles --progress-num=1,2,3,4,5 "Built target malak_browser"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/goodboicarti/Desktop/projects/Malak-Browser/build/CMakeFiles --progress-num=1,2,3,4,5,6,7 "Built target malak_browser"
 .PHONY : CMakeFiles/malak_browser.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/malak_browser.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/goodboicarti/Desktop/projects/Malak-Browser/build/CMakeFiles 5
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/goodboicarti/Desktop/projects/Malak-Browser/build/CMakeFiles 8
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/malak_browser.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/goodboicarti/Desktop/projects/Malak-Browser/build/CMakeFiles 0
 .PHONY : CMakeFiles/malak_browser.dir/rule
@@ -100,15 +103,79 @@ malak_browser: CMakeFiles/malak_browser.dir/rule
 .PHONY : malak_browser
 
 # codegen rule for target.
-CMakeFiles/malak_browser.dir/codegen:
+CMakeFiles/malak_browser.dir/codegen: CMakeFiles/malak_browser_autogen_timestamp_deps.dir/all
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/malak_browser.dir/build.make CMakeFiles/malak_browser.dir/codegen
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/goodboicarti/Desktop/projects/Malak-Browser/build/CMakeFiles --progress-num=1,2,3,4,5 "Finished codegen for target malak_browser"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/goodboicarti/Desktop/projects/Malak-Browser/build/CMakeFiles --progress-num=1,2,3,4,5,6,7 "Finished codegen for target malak_browser"
 .PHONY : CMakeFiles/malak_browser.dir/codegen
 
 # clean rule for target.
 CMakeFiles/malak_browser.dir/clean:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/malak_browser.dir/build.make CMakeFiles/malak_browser.dir/clean
 .PHONY : CMakeFiles/malak_browser.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/malak_browser_autogen_timestamp_deps.dir
+
+# All Build rule for target.
+CMakeFiles/malak_browser_autogen_timestamp_deps.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/malak_browser_autogen_timestamp_deps.dir/build.make CMakeFiles/malak_browser_autogen_timestamp_deps.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/malak_browser_autogen_timestamp_deps.dir/build.make CMakeFiles/malak_browser_autogen_timestamp_deps.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/goodboicarti/Desktop/projects/Malak-Browser/build/CMakeFiles --progress-num= "Built target malak_browser_autogen_timestamp_deps"
+.PHONY : CMakeFiles/malak_browser_autogen_timestamp_deps.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/malak_browser_autogen_timestamp_deps.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/goodboicarti/Desktop/projects/Malak-Browser/build/CMakeFiles 0
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/malak_browser_autogen_timestamp_deps.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/goodboicarti/Desktop/projects/Malak-Browser/build/CMakeFiles 0
+.PHONY : CMakeFiles/malak_browser_autogen_timestamp_deps.dir/rule
+
+# Convenience name for target.
+malak_browser_autogen_timestamp_deps: CMakeFiles/malak_browser_autogen_timestamp_deps.dir/rule
+.PHONY : malak_browser_autogen_timestamp_deps
+
+# codegen rule for target.
+CMakeFiles/malak_browser_autogen_timestamp_deps.dir/codegen:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/malak_browser_autogen_timestamp_deps.dir/build.make CMakeFiles/malak_browser_autogen_timestamp_deps.dir/codegen
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/goodboicarti/Desktop/projects/Malak-Browser/build/CMakeFiles --progress-num= "Finished codegen for target malak_browser_autogen_timestamp_deps"
+.PHONY : CMakeFiles/malak_browser_autogen_timestamp_deps.dir/codegen
+
+# clean rule for target.
+CMakeFiles/malak_browser_autogen_timestamp_deps.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/malak_browser_autogen_timestamp_deps.dir/build.make CMakeFiles/malak_browser_autogen_timestamp_deps.dir/clean
+.PHONY : CMakeFiles/malak_browser_autogen_timestamp_deps.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/malak_browser_autogen.dir
+
+# All Build rule for target.
+CMakeFiles/malak_browser_autogen.dir/all: CMakeFiles/malak_browser_autogen_timestamp_deps.dir/all
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/malak_browser_autogen.dir/build.make CMakeFiles/malak_browser_autogen.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/malak_browser_autogen.dir/build.make CMakeFiles/malak_browser_autogen.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/goodboicarti/Desktop/projects/Malak-Browser/build/CMakeFiles --progress-num=8 "Built target malak_browser_autogen"
+.PHONY : CMakeFiles/malak_browser_autogen.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/malak_browser_autogen.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/goodboicarti/Desktop/projects/Malak-Browser/build/CMakeFiles 1
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/malak_browser_autogen.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/goodboicarti/Desktop/projects/Malak-Browser/build/CMakeFiles 0
+.PHONY : CMakeFiles/malak_browser_autogen.dir/rule
+
+# Convenience name for target.
+malak_browser_autogen: CMakeFiles/malak_browser_autogen.dir/rule
+.PHONY : malak_browser_autogen
+
+# codegen rule for target.
+CMakeFiles/malak_browser_autogen.dir/codegen: CMakeFiles/malak_browser_autogen_timestamp_deps.dir/all
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/malak_browser_autogen.dir/build.make CMakeFiles/malak_browser_autogen.dir/codegen
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/goodboicarti/Desktop/projects/Malak-Browser/build/CMakeFiles --progress-num=8 "Finished codegen for target malak_browser_autogen"
+.PHONY : CMakeFiles/malak_browser_autogen.dir/codegen
+
+# clean rule for target.
+CMakeFiles/malak_browser_autogen.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/malak_browser_autogen.dir/build.make CMakeFiles/malak_browser_autogen.dir/clean
+.PHONY : CMakeFiles/malak_browser_autogen.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.

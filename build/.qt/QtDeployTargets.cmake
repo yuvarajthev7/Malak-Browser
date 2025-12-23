@@ -1,0 +1,2 @@
+set(__QT_DEPLOY_TARGET_malak_browser_FILE /home/goodboicarti/Desktop/projects/Malak-Browser/build/malak_browser)
+set(__QT_DEPLOY_TARGET_malak_browser_TYPE EXECUTABLE)
