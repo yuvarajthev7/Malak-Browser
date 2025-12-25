@@ -23,7 +23,7 @@ jobs:
 
     - name: Configure CMake
       # Note: We point to Malak-Browser directory based on your file structure
-      run: cmake -S Malak-Browser -B build -DCMAKE_BUILD_TYPE=Release -DCMAKE_PREFIX_PATH=$QT_ROOT_DIR
+      run: cmake -S . -B build -DCMAKE_BUILD_TYPE=Release -DCMAKE_PREFIX_PATH=$QT_ROOT_DIR
 
     - name: Build
       run: cmake --build build --config Release
