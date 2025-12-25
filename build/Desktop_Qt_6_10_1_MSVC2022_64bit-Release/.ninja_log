@@ -1,0 +1,11 @@
+# ninja log v6
+15	368	7883352788518469	malak_browser_autogen/timestamp	1949dee3a3ff9376
+15	368	7883352788518469	malak_browser_autogen/mocs_compilation.cpp	1949dee3a3ff9376
+15	368	7883352788518469	C:/Users/goodboicarti/Desktop/projects/Malak-Browser/build/Desktop_Qt_6_10_1_MSVC2022_64bit-Release/malak_browser_autogen/timestamp	1949dee3a3ff9376
+15	368	7883352788518469	C:/Users/goodboicarti/Desktop/projects/Malak-Browser/build/Desktop_Qt_6_10_1_MSVC2022_64bit-Release/malak_browser_autogen/mocs_compilation.cpp	1949dee3a3ff9376
+389	2041	7883352789738653	CMakeFiles/malak_browser.dir/src/interceptor.cpp.obj	da871c753f7b2713
+393	2798	7883352789784490	CMakeFiles/malak_browser.dir/src/storage.cpp.obj	79b0ba764e487121
+376	2803	7883352789595932	CMakeFiles/malak_browser.dir/malak_browser_autogen/mocs_compilation.cpp.obj	9332847aad6edb7c
+381	3128	7883352789661559	CMakeFiles/malak_browser.dir/src/main.cpp.obj	cb62e9b523f2ae11
+385	3995	7883352789661559	CMakeFiles/malak_browser.dir/src/mainwindow.cpp.obj	ca5462f6669b81c
+3995	4166	7883352825794323	malak_browser.exe	f067509256500a67

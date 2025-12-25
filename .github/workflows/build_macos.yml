@@ -1,0 +1,41 @@
+name: Build macOS DMG
+
+on:
+  push:
+    branches: [ "main", "master" ]
+  pull_request:
+    branches: [ "main", "master" ]
+
+jobs:
+  build:
+    runs-on: macos-latest
+
+    steps:
+    - uses: actions/checkout@v4
+
+    - name: Install Qt
+      uses: jurplel/install-qt-action@v3
+      with:
+        version: '6.6.0' # Or your preferred version
+        host: 'mac'
+        target: 'desktop'
+        arch: 'clang_64'
+
+    - name: Configure CMake
+      # Note: We point to Malak-Browser directory based on your file structure
+      run: cmake -S Malak-Browser -B build -DCMAKE_BUILD_TYPE=Release -DCMAKE_PREFIX_PATH=$QT_ROOT_DIR
+
+    - name: Build
+      run: cmake --build build --config Release
+
+    - name: Package DMG
+      working-directory: build
+      run: |
+        # macdeployqt is automatically added to PATH by the install-qt-action
+        macdeployqt malak_browser.app -dmg -verbose=1
+
+    - name: Upload DMG
+      uses: actions/upload-artifact@v4
+      with:
+        name: Malak-Browser-macOS
+        path: build/malak_browser.dmg

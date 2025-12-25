@@ -1,0 +1,5 @@
+C:/Users/goodboicarti/Desktop/projects/Malak-Browser/build/Desktop_Qt_6_10_1_MSVC2022_64bit-Release/CMakeFiles/malak_browser.dir
+C:/Users/goodboicarti/Desktop/projects/Malak-Browser/build/Desktop_Qt_6_10_1_MSVC2022_64bit-Release/CMakeFiles/edit_cache.dir
+C:/Users/goodboicarti/Desktop/projects/Malak-Browser/build/Desktop_Qt_6_10_1_MSVC2022_64bit-Release/CMakeFiles/rebuild_cache.dir
+C:/Users/goodboicarti/Desktop/projects/Malak-Browser/build/Desktop_Qt_6_10_1_MSVC2022_64bit-Release/CMakeFiles/malak_browser_autogen_timestamp_deps.dir
+C:/Users/goodboicarti/Desktop/projects/Malak-Browser/build/Desktop_Qt_6_10_1_MSVC2022_64bit-Release/CMakeFiles/malak_browser_autogen.dir
