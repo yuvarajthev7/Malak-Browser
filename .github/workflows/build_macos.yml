@@ -20,7 +20,7 @@ jobs:
         host: 'mac'
         target: 'desktop'
         arch: 'clang_64'
-        modules: 'qtwebengine'
+        modules: 'qtwebengine qtwebchannel qtpositioning qtwebsockets'
 
     - name: Configure CMake
       # Note: We point to Malak-Browser directory based on your file structure
